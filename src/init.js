@@ -3,11 +3,11 @@ import onChange from 'on-change';
 import axios from 'axios';
 import { uniqueId } from 'lodash';
 import i18next from 'i18next';
-import parser from './parser.js';
-import updatePosts, { buildProxiedUrl } from './rss.js';
-import render from './view.js';
-import ru from './locales/ru.js';
-import config from './locales/index.js';
+import parser from './parser';
+import updatePosts, { buildProxiedUrl } from './rss';
+import render from './view';
+import ru from './locales/ru';
+import config from './locales/index';
 
 export default () => {
   const elements = {
