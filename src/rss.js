@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { uniqueId, differenceWith, isEqual } from 'lodash';
-import parser from './parser.js';
+import parser from './parser';
 
 const updateTime = 5000;
 
